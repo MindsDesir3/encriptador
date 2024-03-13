@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(fondo\ sobrio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    font-size: 2rem;
+    padding: 30px;
+    color: blue;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+main p{
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+.areaTexto{
+    width: 800px;
+    height: 500px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin-left:40px;
+    color: antiquewhite;
+}
+.areaTextoEncriptado{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 1400px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.btncopiar{
+    position: absolute;
+    left: 1400px;
+    top: 550px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: solid white 0,5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;   
+    
+}
+.btncopiar svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+.btncopiar rect{
+    width: 100%;
+    height: 100%;
+    stroke: aliceblue;
+    stroke-width: 3px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    transition: .6s ease all;
+
+}
+
+.btncopiar:hover rect {
+    stroke-dashoffset: 0;  
+} 
+.btnEncriptar{
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: solid white 0,5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+}
+.btnEncriptar svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+.btnEncriptar rect {
+    width: 100%;
+    height: 100%;
+    stroke: aliceblue;
+    stroke-width: 3px;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    transition: .6s ease all;
+}
+.btnEncriptar:hover rect {
+    stroke-dashoffset: 0;
+}
+.btnDesencriptar{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: solid white 1,5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;   
+}
+.btnDesencriptar svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+.btnDesencriptar rect {
+    width: 100%;
+    height: 100%;
+    stroke: aliceblue;
+    stroke-width: 3px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    transition: .6s ease all;
+}
+.btnDesencriptar:hover rect {
+    stroke-dashoffset: 0;
+}
+
+footer{
+    position:absolute;
+    top: 850px;
+    left: 40px;
+    color: bisque;
+}
+

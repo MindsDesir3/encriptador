@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>a</h1>
+    </header>
+    <main class="main">
+        <section class="parte1">
+            
+            <textarea class="areaTexto" id="campoDeTexto" placeholder="texto sin mayusculas ni simbolos" ></textarea>
+            <p>texto sin mayusculas ni simbolos</p>
+        </section>
+       
+        <section class="campo-menaje" >
+            <textarea class="areaTextoEncriptado" id="texto_encriptado" ></textarea>
+            <div>
+                 <button class="btncopiar" onclick="btncopiar()" > <svg> <rect x="0" y="0"  ></rect> </svg> Copiar</button>
+            </div>
+        </section>
+        <div ><button class="btnEncriptar" onclick="btnEncriptar()">  <svg> <rect x="0" y="0"  ></rect> </svg> encriptar</button></div>
+        <div ><button class="btnDesencriptar" onclick="btnDesencriptar()" >  <svg> <rect x="0" y="0"  ></rect> </svg> desencriptar</button></div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Oracle G-6 Nahuel Araujo </p>
+    </footer>
+    
+    <script src="encriptador.js" ></script>
+</body>
+
+</html>
